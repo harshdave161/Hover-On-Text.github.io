@@ -12,8 +12,8 @@ body{
 }
 #font{
     position: absolute;
-    top: 40px;
-    left: 60px;
+    top: 20px;
+    left: 20px;
     font-size: 100px;
     opacity: 0.8;
 }
@@ -81,4 +81,9 @@ h1:hover span:nth-child(1) hide {
 }
 h1:hover span:nth-child(2) hide {
     padding-right: 40px;
+}
+footer{
+    position: absolute; bottom: 10px; right: 40px;
+    text-align: center;
+    font-size: 24px;
 }
